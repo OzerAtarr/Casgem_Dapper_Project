@@ -1,0 +1,19 @@
+﻿@model Casgem_Dapper_Project.DAL.Entitites.Headings
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <form method="post">
+        <br /><br />
+        <label>Başlık Adı</label>
+        <input type="text" class="form-control" asp-for="HeadingName" />
+        <br />
+        <label>Başlık Dumu</label>
+        <input type="text" class="form-control" asp-for="HeadingStatus" />
+        <br />
+        <button class="btn btn-primary">Başlığı Ekle</button>
+    </form>
+    
+</div>
